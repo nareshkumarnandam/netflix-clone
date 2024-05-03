@@ -21,7 +21,7 @@ const Home = () => {
                     <button className='btn'><img src={play_icon} />Play</button>
                     <button className='btn dark-btn'><img src={info_icon} />More Info</button>
                 </div>
-                <TitleCards />
+                <TitleCards className="title-cards" />
             </div>
         </div>
         <div className="more-cards">
